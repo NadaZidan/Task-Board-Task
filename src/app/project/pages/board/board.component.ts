@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { GoogleAnalyticsService } from '@trungk18/core/services/google-analytics.service';
 
 @Component({
   selector: 'board',
