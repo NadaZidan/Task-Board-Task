@@ -6,7 +6,6 @@ export interface JProject {
   name: string;
   url: string;
   description: string;
-  category: ProjectCategory;
   createdAt: string;
   updateAt: string;
   issues: JIssue[];
@@ -14,8 +13,3 @@ export interface JProject {
 }
 
 // eslint-disable-next-line no-shadow
-export enum ProjectCategory {
-  SOFTWARE = 'Software',
-  MARKETING = 'Marketing',
-  BUSINESS = 'Business'
-}
